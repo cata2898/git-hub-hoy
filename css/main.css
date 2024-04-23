@@ -8,6 +8,7 @@ header nav bg-black{
     background-color: black;
 
 }
+
 .text-white{
     color: whitesmoke;
 }
@@ -110,8 +111,13 @@ footer{
     }
 
 }
-
+/* no me está tomando ningun cambio pensé en darle un id pero no se si sea demasiado :/ llevo en eso una hora */
 @media screen and (min-width: 1024px) {
-
+    .jurassic-park{
+        display: none;
+    }
+    .star-wars, .indiana-jones, .img-john{
+        grid-template-rows: 150px;
+    }
 
 }
